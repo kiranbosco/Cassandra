@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringDataCassandra
+Implementation-Version: 0.0.1
+Built-By: lenovo
+Implementation-Vendor-Id: com.javasampleapproach.cassandra
+Build-Jdk: 1.8.0_31
+Implementation-URL: http://projects.spring.io/spring-boot/SpringDataCa
+ ssandra/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
