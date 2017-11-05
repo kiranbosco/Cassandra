@@ -1,5 +1,6 @@
 package com.javasampleapproach.cassandra;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.websocket.server.PathParam;
@@ -47,6 +48,17 @@ public class CustomerRestService {
 		List<Customer> custsAgeGreaterThan25 = customerRepository.findCustomerHasAgeGreaterThan(age);
 		
 		return custsAgeGreaterThan25;
+	}
+	
+	@RequestMapping(value = "/getAllDaa", method = RequestMethod.GET, produces = "application/json")
+	public List<Customer>getAllData(){
+		
+		List<Customer> lstCust=new ArrayList<>();
+		
+		lstCust.add(new Customer(1, "Vijay", "Purini", 35));
+		
+		return lstCust;
+		
 	}
 	
 
