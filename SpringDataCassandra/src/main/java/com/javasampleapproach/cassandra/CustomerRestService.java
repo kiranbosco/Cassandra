@@ -55,11 +55,13 @@ public class CustomerRestService {
 		
 		List<Customer> lstCust=new ArrayList<>();
 		
-		lstCust.add(new Customer(1, "Vijay", "Purini", 35));
+		lstCust.add(new Customer(1, "kiran", "Purini", 27));
 		
 		return lstCust;
 		
 	}
+	
+	
 	
 
 }
