@@ -60,6 +60,10 @@ public class CustomerRestService {
 		return lstCust;
 		
 	}
+	public String userFriendlyErrorMessage() {
+		return null;
+		
+	}
 	
 	
 	
